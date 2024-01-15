@@ -44,7 +44,7 @@ void Display(){
 }
 
 int main() {
-    printf("Enter the number of elements you want to enter in Stack:");
+  printf("Enter the number of elements you want to enter in Stack:");
   scanf("%d",&n);
   do{
     printf("\nMenu:\n1.Push\n2.Pop\n3.Display\n4.Exit");
@@ -62,9 +62,9 @@ int main() {
         break;
       case 4 :
         printf("Exit Point \n");
-         break;
+        break;
       default: 
-         printf("Wrong choise .....\n");
+        printf("Wrong choise .....\n");
     }
   }while(choise!=4);
   return 0;

@@ -9,7 +9,7 @@ void main(){
   {
     scanf("%d", &arr[i]);
   }
-  for(i=0;i<n-1;i++){
+  for(i=0;i<n-1;i++){  /* arr[5,2,7,1,3]*/
     small=i;
     for(j=i+1; j<n; j++){
       if(arr[j]<arr[small]){
